@@ -95,7 +95,7 @@ class _loginPageState extends State<loginPage> {
                     Material(
                       color: Colors.deepPurple,
                       borderRadius:
-                          BorderRadius.circular(changeButton ? 40 : 5),
+                          BorderRadius.circular(changeButton ? 50 : 8),
                       child: InkWell(
                         onTap: () => moveToHome(context),
                         child: AnimatedContainer(
@@ -115,11 +115,6 @@ class _loginPageState extends State<loginPage> {
                                       fontWeight: FontWeight.bold,
                                       fontSize: 18),
                                 ),
-                          decoration: BoxDecoration(
-                            color: Colors.deepPurple,
-                            // shape:
-                            //     changeButton ? BoxShape.circle : BoxShape.rectangle,
-                          ),
                         ),
                       ),
                     ),
