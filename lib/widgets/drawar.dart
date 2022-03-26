@@ -30,6 +30,7 @@ class MyDrawer extends StatelessWidget {
                     style: TextStyle(color: Colors.white),
                   ),
                   currentAccountPicture: CircleAvatar(
+                    radius: 100.0,
                     backgroundImage: NetworkImage(imageurl),
                   ),
                 )),
